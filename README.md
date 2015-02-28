@@ -17,7 +17,6 @@ BASE9_PlottingResults
 
 <a name="Summary"/>
 <h4>Summary</h4>
-====================
 
 This repository houses two Python scripts that allow the user to easily plot results from the output of BASE-9/BASE-N single or mutliple population Bayesian analysis. The [BASE-9 package](https://github.com/argiopetech/BASE) uses Bayesian analysis techniques to determine a best fit isochrone to a cluster of stellar photometry from a set of selected theoretical models.
 
@@ -34,7 +33,6 @@ These plotting functions allow the user to plot each iteration of the adaptive M
 
 <a name="Install"/>
 <h4>Downloading and Installation</h4>
-====================
 
 The source code and necessary data files may all be downloaded as a zip, forked, or cloned on a local machine from the [BASE-9 Plotting Results](https://github.com/rwk506/BASE9_PlottingResults) repository.
 
@@ -62,7 +60,6 @@ Then the two functions, plotresY() and plotres_multi(), may be called as per the
 
 <a name="Use"/>
 <h4>Example of Use</h4>
-====================
 
 The plotresY.py package houses the plotresY() function, which will plot the Bayesian MCMC exploration of parameter space from the results file of the BASE-9 singlePopMcmc calculations. The function requires the array of results from the imported results file (in the same order of the file columns - log(Age), Y, [Fe/H], distance modulus, absorption; it is not required import logPost). For those unfamiliar with python, the res file (e.g. the included file NGC1261.single.res) may be imported with the command:
 
@@ -107,9 +104,8 @@ For both plotresY() and plotres_multi(), the median 90% confidence intervals are
 
 <a name="Docs"/>
 <h4>Documentation</h4>
-====================
 
-###plotresY()###
+#####plotresY()#####
 
 This is a function that will take a single population output results file and plot the sampling history and resulting PDFs of the following, assuming that the results file is formatted as a matrix with columns of age, metallicity, distance, extinction, and helium.
 
@@ -137,7 +133,7 @@ Additional options for plotting colors, sizes, formats, etc. can be found in pyp
 
 
 <br/>
-###plotres_multi()###
+#####plotres_multi()#####
 
 This is a function that will take a single population output results file and plot the sampling history and resulting PDFs of the following, assuming that the results file is formatted as a matrix with columns of age, metallicity, distance,  extinction, helium A, helium B, and proportion.
     
@@ -173,7 +169,7 @@ Additional options for plotting colors, sizes, formats, etc. can be found in pyp
 
 This Python code was written using Python 2.6 and Numpy 1.5.1, but should be compatible with many other versions (though not Python 3.0 or higher). The user may have to install the matplotlib, gridspec, and pylab packages.
 
-Compatible with iPython Notebook (Use %run [name]).
+Compatible with iPython Notebook (use %run [name]).
 
 
 
