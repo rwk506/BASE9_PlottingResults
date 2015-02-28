@@ -165,7 +165,6 @@ Additional options for plotting colors, sizes, formats, etc. can be found in pyp
 
 <a name="Deps"/>
 <h4>Dependencies</h4>
-====================
 
 This Python code was written using Python 2.6 and Numpy 1.5.1, but should be compatible with many other versions (though not Python 3.0 or higher). The user may have to install the matplotlib, gridspec, and pylab packages.
 
@@ -178,7 +177,7 @@ Compatible with iPython Notebook (use %run [name]).
 
 <a name="Other"/>
 <h4>Other Information</h4>
-====================
+
 Author: RWK <br />
 License: None, free to use and edit as people wish. <br />
 Contact: May be made through GitHub. <br />
