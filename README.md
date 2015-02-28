@@ -117,21 +117,20 @@ Call signature: plotresY(res)
     
 where res is the results file; this is typically loaded in a separate line as: res=loadtxt('/path/cluster_results.res',skiprows=1).
 
-Optional keyword arguments:
-    
-    =========   =======================================================
-    Keyword     Description
-    =========   =======================================================
-    priors :    default=[0,0,0,0,0] in the order of age, metallicity, distance, extinction, and helium. When the default is assumed, no lines for the priors are plotted. Whenever a value other than zero is specified, the prior for that variable is plot as a line.
-    startn :    default=0; this is the starting iteration value for plotting the variables.
-    color1 :    default='blue'; this is the color of the median and 90% bayesian interval lines in the PDF plots
-    color2 :    default='gray'; this is the color of the histograms in the PDF plots
-    color3 :    default='red'; this is the color of the prior lines across the entire plot
-    ls1 :       default=':', a dotted line; this is the linestyle of the prior lines and bayesian interval lines
-    lsty :      default='-', a solid line; this is the linestyle of the median bayesian interval line
-    lw1 :       default=1.5; this is the linewidth of the all lines in the plot
-    ms1 :       default=0.15; this is the marker size of the sampling history points
-    mk :        default='ko', black points; this is the marker format of the sampling history points
+Optional keyword arguments:<br/>
+    =========   =======================================================<br/>
+    Keyword     Description<br/>
+    =========   =======================================================<br/>
+    priors :    default=[0,0,0,0,0] in the order of age, metallicity, distance, extinction, and helium. When the default is assumed, no lines for the priors are plotted. Whenever a value other than zero is specified, the prior for that variable is plot as a line.<br/>
+    startn :    default=0; this is the starting iteration value for plotting the variables.<br/>
+    color1 :    default='blue'; this is the color of the median and 90% bayesian interval lines in the PDF plots<br/>
+    color2 :    default='gray'; this is the color of the histograms in the PDF plots<br/>
+    color3 :    default='red'; this is the color of the prior lines across the entire plot<br/>
+    ls1 :       default=':', a dotted line; this is the linestyle of the prior lines and bayesian interval lines<br/>
+    lsty :      default='-', a solid line; this is the linestyle of the median bayesian interval line<br/>
+    lw1 :       default=1.5; this is the linewidth of the all lines in the plot<br/>
+    ms1 :       default=0.15; this is the marker size of the sampling history points<br/>
+    mk :        default='ko', black points; this is the marker format of the sampling history points<br/>
 
 Additional options for plotting colors, sizes, formats, etc. can be found in pyplot.plot() and related descriptions. Colors may take any standard HTML string descriptor (re: http://www.w3schools.com/html/html_colornames.asp).
 
@@ -146,20 +145,20 @@ Call signature: plotres_multi(res)
 
 where res is the results file; this is typically loaded in a separate line as: res=loadtxt('/path/cluster_results.res',skiprows=1).
 
-Optional keyword arguments:
-    =========   =======================================================
-    Keyword     Description
-    =========   =======================================================
-    priors :    default=[0,0,0,0,0,0,0] in the order of age, metallicity, distance, extinction, helium A, helium B, and proportion. When the default is assumed, no lines for the priors are plotted. Whenever a value other than zero is specified, the prior for that variable is plot as a line.
-    startn :    default=0; this is the starting iteration value for plotting the variables.
-    color1 :    default='blue'; this is the color of the median and 90% bayesian interval lines in the PDF plots
-    color2 :    default='gray'; this is the color of the histograms in the PDF plots
-    color3 :    default='red'; this is the color of the prior lines across the entire plot
-    ls1 :       default=':', a dotted line; this is the linestyle of the prior lines and bayesian interval lines
-    lsty :      default='-', a solid line; this is the linestyle of the median bayesian interval line
-    lw1 :       default=1.5; this is the linewidth of the all lines in the plot
-    ms1 :       default=0.15; this is the marker size of the sampling history points
-    mk :        default='ko', black points; this is the marker format of the sampling history points
+Optional keyword arguments:<br/>
+    =========   =======================================================<br/>
+    Keyword     Description<br/>
+    =========   =======================================================<br/>
+    priors :    default=[0,0,0,0,0,0,0] in the order of age, metallicity, distance, extinction, helium A, helium B, and proportion. When the default is assumed, no lines for the priors are plotted. Whenever a value other than zero is specified, the prior for that variable is plot as a line.<br/>
+    startn :    default=0; this is the starting iteration value for plotting the variables.<br/>
+    color1 :    default='blue'; this is the color of the median and 90% bayesian interval lines in the PDF plots<br/>
+    color2 :    default='gray'; this is the color of the histograms in the PDF plots<br/>
+    color3 :    default='red'; this is the color of the prior lines across the entire plot<br/>
+    ls1 :       default=':', a dotted line; this is the linestyle of the prior lines and bayesian interval lines<br/>
+    lsty :      default='-', a solid line; this is the linestyle of the median bayesian interval line<br/>
+    lw1 :       default=1.5; this is the linewidth of the all lines in the plot<br/>
+    ms1 :       default=0.15; this is the marker size of the sampling history points<br/>
+    mk :        default='ko', black points; this is the marker format of the sampling history points<br/>
 
 Additional options for plotting colors, sizes, formats, etc. can be found in pyplot.plot() and related descriptions. Colors may take any standard HTML string descriptor (re: http://www.w3schools.com/html/html_colornames.asp).
 
