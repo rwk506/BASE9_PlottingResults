@@ -9,7 +9,7 @@ BASE9_PlottingResults
 [Summary](#Summary)<br />
 [Downloading and Installation](#Install)<br />
 [Example of Use](#Use)<br />
-[Documentation](#Doc)<br />
+[Documentation](#Docs)<br />
 [Dependencies](#Deps)<br />
 [Other Information](#Other)<br />
 <br /><br />
