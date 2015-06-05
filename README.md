@@ -117,11 +117,11 @@ Optional keyword arguments:<br/>
 &nbsp; &nbsp; &nbsp;=========&nbsp; &nbsp; &nbsp;=======================================================<br/>
 &nbsp; &nbsp; &nbsp;Keyword&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Description<br/>
 &nbsp; &nbsp; &nbsp;=========&nbsp; &nbsp; &nbsp;=======================================================<br/>
-&nbsp; &nbsp; &nbsp;priors :&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;default=[0,0,0,0,0] in the order of age, metallicity, distance, extinction, and helium. When the default is assumed, no lines for the priors are plotted. Whenever a value other than zero is specified, the prior for that variable is plot as a line.<br/>
-&nbsp; &nbsp; &nbsp;startn :&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;default=0; this is the starting iteration value for plotting the variables.<br/>
-&nbsp; &nbsp; &nbsp;color1 :&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;default='blue'; this is the color of the median and 90% bayesian interval lines in the PDF plots<br/>
-&nbsp; &nbsp; &nbsp;color2 :&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;default='gray'; this is the color of the histograms in the PDF plots<br/>
-&nbsp; &nbsp; &nbsp;color3 :&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;default='red'; this is the color of the prior lines across the entire plot<br/>
+&nbsp; &nbsp; &nbsp;priors :&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;default=[0,0,0,0,0] in the order of age, metallicity, distance, extinction, and helium. When the default is assumed, no lines for the priors are plotted. Whenever a value other than zero is specified, the prior for that variable is plot as a line.<br/>
+&nbsp; &nbsp; &nbsp;startn : &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;default=0; this is the starting iteration value for plotting the variables.<br/>
+&nbsp; &nbsp; &nbsp;color1 :&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;default='blue'; this is the color of the median and 90% bayesian interval lines in the PDF plots<br/>
+&nbsp; &nbsp; &nbsp;color2 :&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;default='gray'; this is the color of the histograms in the PDF plots<br/>
+&nbsp; &nbsp; &nbsp;color3 :;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;default='red'; this is the color of the prior lines across the entire plot<br/>
 &nbsp; &nbsp; &nbsp;ls1 :&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;default=':', a dotted line; this is the linestyle of the prior lines and bayesian interval lines<br/>
 &nbsp; &nbsp; &nbsp;lsty :&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;default='-', a solid line; this is the linestyle of the median bayesian interval line<br/>
 &nbsp; &nbsp; &nbsp;lw1 :&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;default=1.5; this is the linewidth of the all lines in the plot<br/>
