@@ -6,6 +6,7 @@ BASE9_PlottingResults
 <br />
 
 <h4>Table of Contents</h4>
+
 [Summary](#Summary)<br />
 [Downloading and Installation](#Install)<br />
 [Example of Use](#Use)<br />
@@ -105,7 +106,7 @@ For both plotresY() and plotres_multi(), the median 90% confidence intervals are
 <a name="Docs"/>
 <h4>Documentation</h4>
 
-#####plotresY()#####
+<h5>plotresY()</h5>
 
 This is a function that will take a single population output results file and plot the sampling history and resulting PDFs of the following, assuming that the results file is formatted as a matrix with columns of age, metallicity, distance, extinction, and helium.
 
@@ -133,7 +134,7 @@ Additional options for plotting colors, sizes, formats, etc. can be found in pyp
 
 
 <br/>
-#####plotres_multi()#####
+<h5>plotres_multi()</h5>
 
 This is a function that will take a single population output results file and plot the sampling history and resulting PDFs of the following, assuming that the results file is formatted as a matrix with columns of age, metallicity, distance,  extinction, helium A, helium B, and proportion.
     
